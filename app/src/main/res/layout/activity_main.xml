@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    tools:context=".MainActivity"
+    >
+
+    <Button
+        android:id="@+id/qrButton"
+        android:layout_width="159dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="250dp"
+        android:text="QR Scanner"
+        android:textSize="25dp"
+        android:background="@drawable/round"
+        />
+
+    <Button
+        android:id="@+id/caleButton"
+        android:layout_width="159dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="210dp"
+        android:text="Calendar"
+        android:textSize="25dp"
+        android:background="@drawable/round_c"
+        />
+
+    <Button
+        android:id="@+id/calcButton"
+        android:layout_width="159dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="390dp"
+        android:layout_marginLeft="40dp"
+        android:text="Calculator"
+        android:textStyle=""
+        android:textSize="25dp"
+        android:background="@drawable/round_d"/>
+
+    <Button
+        android:id="@+id/noteButton"
+        android:layout_width="159dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="390dp"
+        android:layout_marginLeft="210dp"
+        android:text="NotePad"
+        android:textSize="25dp"
+        android:background="@drawable/roundf"
+        />
+
+
+</RelativeLayout>
